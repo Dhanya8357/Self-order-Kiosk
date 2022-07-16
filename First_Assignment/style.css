@@ -1,0 +1,38 @@
+body {
+    background-color: cornsilk;
+}
+
+.title {
+    font-weight: bold;
+    margin: 20px;
+}
+
+.container {
+    top : 40%;
+    left : 10%;
+    position: absolute;
+    width: max-content;
+}
+
+.card {
+    border : 1px cornsilk;
+    width: max-content;
+    text-align: center;
+    display: inline-block;
+    margin: 5px;
+}
+
+.card img {
+    height: 200px;
+    width: 200px;
+    position: relative;
+}
+
+button {
+    border: 2px solid black;
+    background: rgb(117, 14, 28);
+    color: white;
+    font-weight: bold;
+    margin: 20px;
+    padding: 5px 10px;
+}

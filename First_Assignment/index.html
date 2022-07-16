@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Self-order kiosk</title>
+    <link rel="stylesheet" href="./style.css"/>
+    <script src="./script.js" type="text/javascript"></script>
+</head>
+<body> 
+        <h1>Self-order kiosk</h1>
+        <p>U can order the available items displayed below and checkout for bill processing</p>
+        <p>Fixed price is $25 for all items</p>
+        <p><b>Products available</b></p>
+        <ul>
+            <li>coke</li>
+            <li>fries</li>
+            <li>burger</li>
+            <li>candy</li>
+            <li>sprite</li>
+        </ul>
+        
+        <div class="container">
+            <div class="card" id="firstitem">
+                <img src="images/coke.png">
+                <div class="title">Coke</div>
+                <button name = "item1" onclick="additem1()">Add to order</button>        
+            </div>
+
+            <div class="card" id="seconditem">
+                <img src="images/fries.png">
+                <div class="title">Fries</div>
+                <button name = "item2" onclick="additem2()">Add to order</button>     
+            </div>
+
+            <div class="card" id="thirditem">
+                <img src="images/burger.png">
+                <div class="title">Burger</div>
+                <button name = "item3" onclick="additem3()">Add to order</button>
+            </div>
+
+            <div class="card" id="fourthitem">
+                <img src="images/candy.png">
+                <div class="title">Candy</div>
+                <button name = "item4" onclick="additem4()">Add to order</button>
+            </div>
+
+            <div class="card" id="fifthitem">
+                <img src="images/sprite.png">
+                <div class="title">Sprite</div>
+                <button name = "item5" onclick="additem5()">Add to order</button>
+            </div>
+        
+            <div class="card" id="forCheckout">
+            <input
+              type="button" style="background-color: brown;" 
+              value="Checkout"
+              id="checkoutButton"
+              onclick="displayBill()"/>
+            </div>
+        </div>
+    </body>
+</html>
